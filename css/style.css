@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(230, 222, 222);
+}
+nav{
+    background-color: rgb(92, 89, 89);
+    color: rgb(218, 218, 190);
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+
+}
+.listaNav{
+    display: inline-flex;
+    text-align: center;
+    margin-left: 12em;
+    margin-right: 12em;
+}
+ul{
+    list-style: none;
+
+}
+
+li{
+    margin-right: 2em;
+}
+a{
+    text-decoration: none;
+}
+.linea{
+    display: inline-block;
+    display: inline-flex;
+
+}
+#nombre{
+    margin-left: 3em;
+    margin-right: 3em;
+}
+#foto{
+    width: 250px;
+    
+    position: relative;
+    top: 5px;
+    left: 500px;
+    border-radius: 50%;
+    
+    
+}
+#banner{
+    height: 310px;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,255,255,1) 0%, rgba(86,85,85,1) 100%);
+width: 100%;
+height: 400px;
+padding: 5px;
+
+ 
+
+}
