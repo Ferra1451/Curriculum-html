@@ -1,58 +1,143 @@
-body{
-    background-color: rgb(230, 222, 222);
+* {
+    margin: 0;
+    padding: 0;
 }
-nav{
-    background-color: rgb(92, 89, 89);
+
+body {
+
+
+    background-position-x: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+
+}
+
+nav, footer{
+    background-color: rgb(156, 122, 80);
     color: rgb(218, 218, 190);
     font-family: Arial, Helvetica, sans-serif;
-    
-    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+#nombre {
+    font-size: 1.3rem;
+
 
 }
-.listaNav{
+
+.listaNav {
     display: inline-flex;
     text-align: center;
-    margin-left: 12em;
-    margin-right: 12em;
+    margin-left: 1em;
+    margin-right: 17em;
+    
+
 }
-ul{
+
+ul {
     list-style: none;
 
+
 }
 
-li{
+li {
     margin-right: 2em;
+    font-size: 1.3rem;
+    color: cornsilk;
 }
-a{
+
+a {
     text-decoration: none;
 }
-.linea{
+
+.linea {
     display: inline-block;
     display: inline-flex;
 
 }
-#nombre{
-    margin-left: 3em;
-    margin-right: 3em;
-}
-#foto{
-    width: 250px;
-    
-    position: relative;
-    top: 5px;
-    left: 500px;
-    border-radius: 50%;
-    
-    
-}
-#banner{
-    height: 310px;
-    background: rgb(2,0,36);
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,255,255,1) 0%, rgba(86,85,85,1) 100%);
-width: 100%;
-height: 400px;
-padding: 5px;
 
- 
+
+#banner {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+
+    height: 22rem;
+    width: 100%;
+    padding: 1rem;
+    background-image: url(https://st4.depositphotos.com/8543466/i/600/depositphotos_251412726-stock-photo-color-papers-geometry-composition-background.jpg);
+    background-repeat: round;
+
+}
+
+#foto {
+    width: 260px;
+    border-radius: 160px;
+}
+
+#sobreMi {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+
+}
+
+
+
+#redesUl {
+
+    display: flex;
+}
+
+#footerSection {
+    text-align: center;
+}
+a:link{
+    color: cornsilk;
+}
+a:visited{
+    color: cornsilk;
+}
+a:hover{
+    opacity: 0.7;
+}
+.card{
+    margin: 3rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    border: 1px solid burlywood;
+    border-radius: 16px;
+    text-align: center;
+    font-size: 1.2rem;
+    box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12)
+;
+    
+
+}
+h1{
+    margin: 1.2rem;
+    font-family: ;
+    
+}
+.textSobremi{
+    margin-bottom: 1.2rem ;
+    font-size: larger;
+    
 
 }
